@@ -1419,6 +1419,7 @@ async function generateCdkApp(nitro) {
       deploy: "npm install && cdk deploy"
     },
     devDependencies: {
+      "@types/node": "18",
       "aws-cdk": "^2",
       "ts-node": "^10.7.0",
       typescript: "~3.9.7"
