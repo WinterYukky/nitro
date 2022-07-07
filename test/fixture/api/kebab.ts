@@ -1,1 +1,0 @@
-export default () => kebabCase('HelloWorld')
